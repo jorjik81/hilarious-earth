@@ -26,6 +26,7 @@ This web application provides a user-friendly interface to generate strong and s
 ![Password Generated](<assets/screenshots/Screenshot%20(25).png>)
 
 ## live Page
+https://jorjik81.github.io/hilarious-earth3/
 
 ## Usage
 
