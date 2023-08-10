@@ -7,7 +7,7 @@ generateBtn.addEventListener("click", writePassword);
 
 // Define the Generate Password Function
 function writePassword() {
-  //loops all the  prompts if no any letters, numbers or characters are selected
+  //loops all the prompts if no any letters, numbers or characters are selected
   while(true) {
   var passwordLength = parseInt(prompt("Enter the desired pass. length between 8-128 symbols"))
   // approves pass length only between 8-128 symbols
@@ -36,12 +36,12 @@ function writePassword() {
   if (confirm("include special symbols?")) {
     charset += "!@#$%^&*()_-+=<>?";
   }
-  // alert for zero types of symbols selected
+  // alert for zero symbol types selected
   if (charset.length === 0) {
     alert("At least one character type must be selected, let's try again? (press ok)");
     writePassword()
   }
-  else {                /* activater very first prompt if no symbol types chosen*/ 
+  else {                /* activates very first prompt if no symbol types had been  chosen*/ 
     break;}
 }
   
