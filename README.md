@@ -15,15 +15,15 @@ A simple password generator web application that allows users to generate secure
 
 This web application provides a user-friendly interface to generate strong and secure passwords based on user preferences. Users can choose the length of the password and specify whether to include uppercase letters, lowercase letters, numbers, and special symbols.
 
-![Password Generator](assets/screenshots/Screenshot%20(24).png)
+![Password Generator](<assets/screenshots/Screenshot%20(24).png>)
 
 ## Screenshots
 
-![Home Page](assets/screenshots/Screenshot%20(23).png)
+![Home Page](<assets/screenshots/Screenshot%20(23).png>)
 
-![Password Generation](assets/screenshots/Screenshot%20(24).png)
+![Password Generation](<assets/screenshots/Screenshot%20(24).png>)
 
-![Password Generated](assets/screenshots/Screenshot%20(25).png)
+![Password Generated](<assets/screenshots/Screenshot%20(25).png>)
 
 ## live Page
 
