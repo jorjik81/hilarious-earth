@@ -7,53 +7,52 @@ generateBtn.addEventListener("click", writePassword);
 
 // Define the Generate Password Function
 function writePassword() {
-  var passwordLength = parseInt(prompt("Enter the desired pass. length between 8-128 symbols"))
+  //loops all the  prompts if no any letters, numbers or characters are selected
   while(true) {
-  if(isNaN(passwordLength) || passwordLength < 8 || passwordLength >128) {
+  var passwordLength = parseInt(prompt("Enter the desired pass. length between 8-128 symbols"))
+  // approves pass length only between 8-128 symbols
+  if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     alert("Please enter a valide length.");
-    return;
-  }
-  else {
-    break;}
+    writePassword()
   }
   var charset = "";
   
-  var includeUppercase = prompt("Include uppercase letters? (Y/N)");
-  if (includeUppercase === "y") {
+  // prompt for uppercase letters
+  if (confirm("Include uppercase letters?")) {
     charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   }
 
-  var includeLowercase = prompt("Include lowercase letters? (Y/N)");
-  if (includeLowercase === "y") {
+  //pr. for lowercase letters
+  if (confirm("Include lowercase letter?")) {
     charset += "abcdefghijklmnopqrstuvwxyz";
   }
 
-  var includeNumbers = prompt("Include numbers? (Y/N)");
-  if (includeNumbers === "y") {
+  //pr. for numbers
+  if (confirm("Include numbers?")) {
     charset += "0123456789";
   }
 
-  var includeSpecialSymbols = prompt("Include special symbols? (Y/N)");
-  if (includeSpecialSymbols === "y") {
+  //pr. for special symbols
+  if (confirm("include special symbols?")) {
     charset += "!@#$%^&*()_-+=<>?";
   }
-
-  if (charset === "") {
-    alert("At least one character type must be selected, let's try again? (Y/N)");
-    parseInt(prompt("Enter the desired pass. length between 8-128 symbols"));
-    else {
-      break;}
-  
+  // alert for zero types of symbols selected
+  if (charset.length === 0) {
+    alert("At least one character type must be selected, let's try again? (press ok)");
+    writePassword()
   }
+  else {                /* activater very first prompt if no symbol types chosen*/ 
+    break;}
+}
   
   /*var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=<>?";*/
-
+  // randomizes chosen symbols
   var newPassword = "";
   for (var i = 0; i < passwordLength; i++) {
     var randomIndex = Math.floor(Math.random() * charset.length);
     newPassword += charset[randomIndex];
   }
-
+  // sets pasword field
   var passwordField = document.querySelector("#password");
   passwordField.value = newPassword;
 }
