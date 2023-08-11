@@ -15,15 +15,13 @@ A simple password generator web application that allows users to generate secure
 
 This web application provides a user-friendly interface to generate strong and secure passwords based on user preferences. Users can choose the length of the password and specify whether to include uppercase letters, lowercase letters, numbers, and special symbols.
 
-![Password Generator](<assets/screenshots/Screenshot%20(24).png>)
-
 ## Screenshots
 
-![Home Page](<assets\Screenshot (23).png>)
+![Home Page](<assets/Screenshot(23).png>)
 
-![Password Generation](<assets\Screenshot (24).png>)
+![Password Generation](<assets/Screenshot(24).png>)
 
-![Password Generated](<assets\Screenshot (25).png>)
+![Password Generated](<assets/Screenshot(25).png>)
 
 ## live Page
 https://jorjik81.github.io/hilarious-earth3/
