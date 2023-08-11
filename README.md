@@ -17,7 +17,7 @@ This web application provides a user-friendly interface to generate strong and s
 
 ## Screenshots
 
-![Home Page](assets/screenshot_23).png)
+![Home Page](assets/screenshot_23.png)
 
 ![Password Generation](assets/Screenshot(24).png)   
 
