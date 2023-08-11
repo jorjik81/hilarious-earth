@@ -17,11 +17,11 @@ This web application provides a user-friendly interface to generate strong and s
 
 ## Screenshots
 
-![Home Page](<assets/Screenshot(23).png>)
+![Home Page](assets/screenshot_23).png)
 
-![Password Generation](<assets/Screenshot(24).png>)
+![Password Generation](assets/Screenshot(24).png)   
 
-![Password Generated](<assets/Screenshot(25).png>)
+![Password Generated](assets/Screenshot(25).png)
 
 ## live Page
 https://jorjik81.github.io/hilarious-earth3/
