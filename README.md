@@ -2,7 +2,7 @@
 
 A simple password generator web application that allows users to generate secure passwords with various character types.
 
-![Password Generator]
+![Password Generator](assets/screenshot_23.png)
 
 ## Table of Contents
 
@@ -19,9 +19,9 @@ This web application provides a user-friendly interface to generate strong and s
 
 ![Home Page](assets/screenshot_23.png)
 
-![Password Generation](assets/screenshot_(24).png)   
+![Password Generation](assets/screenshot_24.png)   
 
-![Password Generated](assets/screenshot_(25).png)
+![Password Generated](assets/screenshot_25.png)
 
 ## live Page
 https://jorjik81.github.io/hilarious-earth3/
